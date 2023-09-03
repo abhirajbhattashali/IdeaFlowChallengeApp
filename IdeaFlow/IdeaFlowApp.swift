@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct IdeaFlowApp: App {
+    init(){
+
+       
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }
